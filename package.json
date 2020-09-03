@@ -1,0 +1,24 @@
+{
+  "name": "mcmafia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "service.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [],
+  "author": "borja.tur@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.0",
+    "@hapi/hapi": "^20.0.0",
+    "@hapi/joi": "^17.1.1",
+    "lodash": "^4.17.20",
+    "mongodb": "^3.6.0"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.2",
+    "@hapi/lab": "^23.0.0",
+    "sinon": "^9.0.3"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "members": [
+    {
+      "id": "f653e12680054da7981684a23900632a",
+      "name": "Pablo",
+      "surname": "Escobar",
+      "role": "boss",
+      "organization": "Cartel de Medellin",
+      "startedAt": "1985-05-05T14:48:00.000Z",
+      "jail": false,
+      "children": [
+        "c48ac60af8184d4f898230f41b77584e",
+        "03061d6e58bc4c5dba66347885d3edd9",
+        "476fc73d2d844b6faa010e73b32d4ca4"
+      ],
+      "parent": null
+    },
+    {
+      "id": "c48ac60af8184d4f898230f41b77584e",
+      "name": "Gonzalo",
+      "surname": "Rodríguez Gacha",
+      "role": "underboss",
+      "organization": "Cartel de Medellin",
+      "startedAt": "1985-06-05T14:48:00.000Z",
+      "jail": false,
+      "children": [
+        "588975829e084764b66046b0ee7c814e",
+        "2704f4f46c034eec869443d63250cb18"
+      ],
+      "parent": "f653e12680054da7981684a23900632a"
+    },
+    {
+      "id": "03061d6e58bc4c5dba66347885d3edd9",
+      "name": "Carlos",
+      "surname": "Lehder",
+      "role": "underboss",
+      "organization": "Cartel de Medellin",
+      "startedAt": "1985-06-03T14:48:00.000Z",
+      "jail": false,
+      "children": [
+        "ec7a4f5f4c844b1abea8748c4eb7c21c"
+      ],
+      "parent": "f653e12680054da7981684a23900632a"
+    },
+    {
+      "id": "476fc73d2d844b6faa010e73b32d4ca4",
+      "name": "Gustavo",
+      "surname": "Gaviria",
+      "role": "underboss",
+      "organization": "Cartel de Medellin",
+      "startedAt": "1985-09-05T14:48:00.000Z",
+      "jail": false,
+      "children": [
+        "ffd94b6dbfd84e339a14df88e14f66a5"
+      ],
+      "parent": "f653e12680054da7981684a23900632a"
+    },
+    {
+      "id": "588975829e084764b66046b0ee7c814e",
+      "name": "Mario",
+      "surname": "Castaño",
+      "role": "soldier",
+      "organization": "Cartel de Medellin",
+      "startedAt": "1986-06-05T14:48:00.000Z",
+      "jail": false,
+      "children": [],
+      "parent": "c48ac60af8184d4f898230f41b77584e"
+    },
+    {
+      "id": "ec7a4f5f4c844b1abea8748c4eb7c21c",
+      "name": "Brances",
+      "surname": "Muñoz",
+      "role": "soldier",
+      "organization": "Cartel de Medellin",
+      "startedAt": "1985-11-05T14:48:00.000Z",
+      "jail": false,
+      "children": [],
+      "parent": "03061d6e58bc4c5dba66347885d3edd9"
+    },
+    {
+      "id": "ffd94b6dbfd84e339a14df88e14f66a5",
+      "name": "Brances",
+      "surname": "Muñoz",
+      "role": "soldier",
+      "organization": "Cartel de Medellin",
+      "startedAt": "1989-02-05T14:48:00.000Z",
+      "jail": false,
+      "children": [],
+      "parent": "476fc73d2d844b6faa010e73b32d4ca4"
+    },
+    {
+      "id": "2704f4f46c034eec869443d63250cb18",
+      "name": "Guillermo",
+      "surname": "Sosa",
+      "role": "soldier",
+      "organization": "Cartel de Medellin",
+      "startedAt": "1988-06-05T14:48:00.000Z",
+      "jail": false,
+      "children": [],
+      "parent": "c48ac60af8184d4f898230f41b77584e"
+    }
+  ]
+}

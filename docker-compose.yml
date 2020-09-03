@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+    mongo:
+        image: mongo:4.2.9
+        ports:
+            - "27017:27017"
+    mongo-express:
+        image: mongo-express
+        environment:
+            - ME_CONFIG_MONGODB_SERVER=mongo
+            - ME_CONFIG_MONGODB_PORT=27017
+        links:
+            - mongo
+        ports:
+            - "8081:8081"
+    mcmafia:
+        build: ./
+        environment:
+            - MCMAFIA_MONGO_URI=mongodb://mongo
+        depends_on:
+            - "mongo"
+        links:
+            - mongo
+        ports:
+            - "3000:3000"
